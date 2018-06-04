@@ -33,11 +33,14 @@ dom
 
 - util
 
-| 名称                   | 简介                                                                 |                              |      |
-|----------------------|--------------------------------------------------------------------|------------------------------|------|
-| toBoolean            | ```toBoolean(value: boolean                                        | string): boolean```          |      |
-| toNumber             | ```toNumber<D>(value: number                                       | string, fallback: D): number | D``` |
-| serializeQueryParams | ```serializeQueryParams(params: { [key: string]: any }): string``` |                              |      |
+| 名称                   | 简介                                                                 |
+|----------------------|--------------------------------------------------------------------|
+| toBoolean            | ```toBoolean(value:any): boolean```                                |
+| toNumber             | ```toNumber<D>(value: any, fallback: D): number```                 |
+| serializeQueryParams | ```serializeQueryParams(params: { [key: string]: any }): string``` |
+| getGlobal            | 获取全局对象                                                             |
+| isObservable         | 判断是否Observable                                                     |
+| isPromise            | 判断是否Promise                                                        |
 
 
 组件库
@@ -55,5 +58,6 @@ dom
 | iwe7-better-scroll | 滑动组件      | https://github.com/iwe7/iwe7-better-scroll |
 | iwe7-web-storage   | 缓存相关      | https://github.com/iwe7/iwe7-web-storage   |
 | iwe7-url           | api链接便签   | https://github.com/iwe7/iwe7-url           |
+| iwe7-video         | 视频播放      | https://github.com/iwe7/iwe7-video         |
 
 
