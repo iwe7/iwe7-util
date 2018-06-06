@@ -1,4 +1,4 @@
-export function empty(mixedVar) {
+export function empty(mixedVar: any): boolean {
     let key;
     let i;
     let len;

@@ -1,3 +1,4 @@
+declare const Buffer: any;
 export function base64_decode(encodedData) {
     const decodeUTF8string = function (str) {
         return decodeURIComponent(str.split('').map(function (c) {
@@ -9,7 +10,7 @@ export function base64_decode(encodedData) {
             return decodeUTF8string(window.atob(encodedData));
         }
     } else {
-        return new Buffer(encodedData, 'base64').toString('utf-8');
+        return new Error('exit not browser');
     }
 
     const b64 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';

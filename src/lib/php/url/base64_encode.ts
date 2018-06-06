@@ -12,7 +12,7 @@ export function base64_encode(stringToEncode) {
             return window.btoa(encodeUTF8string(stringToEncode));
         }
     } else {
-        return new Buffer(stringToEncode).toString('base64');
+        return new Error('exit not browser');
     }
 
     const b64 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
