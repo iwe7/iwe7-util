@@ -4,3 +4,5 @@ export * from './lib/trim-whitespace';
 export * from './lib/check';
 export * from './lib/ng-private';
 export * from './lib/php/index';
+export * from './lib/util/omit';
+export * from './lib/util/exist';
