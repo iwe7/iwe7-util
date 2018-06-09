@@ -6,3 +6,6 @@ export * from './lib/ng-private';
 export * from './lib/php/index';
 export * from './lib/util/omit';
 export * from './lib/util/exist';
+export * from './lib/lang/date';
+export * from './lib/lang/string';
+
